@@ -19,7 +19,6 @@ function parseCurrency(value: number): string {
 
 const IndexRoute: React.FC<Props> = ({products}) => {
   const [cart, setCart] = React.useState<Product[]>([]);
-  const [selectedImage, setSelectedImage] = React.useState<string>(null);
   const text = React.useMemo(
     () =>
     cart
@@ -37,7 +36,7 @@ const IndexRoute: React.FC<Props> = ({products}) => {
     <Grid gridGap={6} templateColumns="repeat(auto-fill, minmax(250px, 1fr))">
     {products.map((product) => (
     <Stack spacing={3} borderRadius="md" padding={4} backgroundColor="#b5e48c" key={product.id}>
-      <Image alt={product.title} as={motion.img} cursor="pointer" layoutId={product.image} maxHeight={128} objectFit="cover" src={product.image} />
+      <Image alt={product.title} cursor="pointer" maxHeight={128} objectFit="cover" src={product.image} />
       <Stack spacing={1}>
       <Text>{product.title}</Text>
       <Text fontSize="sm" fontWeight="500"  color="pink.500">{parseCurrency(product.price)}</Text>
