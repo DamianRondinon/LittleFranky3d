@@ -1,6 +1,7 @@
-import React from "react";
+import React, { use, useState } from "react";
 import { GetStaticProps } from "next";
-import { Button, Grid, Stack, Text, Link, Box, Flex } from "@chakra-ui/react";
+import { Button, Grid, Stack, Text, Link, Flex, Image } from "@chakra-ui/react";
+import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 
 import { Product } from "../product/types";
 import api from "../product/api";
@@ -18,6 +19,7 @@ function parseCurrency(value: number): string {
 
 const IndexRoute: React.FC<Props> = ({products}) => {
   const [cart, setCart] = React.useState<Product[]>([]);
+  const [selectedImage, setSelectedImage] = React.useState<string>(null);
   const text = React.useMemo(
     () =>
     cart
@@ -30,10 +32,12 @@ const IndexRoute: React.FC<Props> = ({products}) => {
   );
 
   return (
-   <Stack spacing={6}>
+    <AnimateSharedLayout>
+    <Stack spacing={6}>
     <Grid gridGap={6} templateColumns="repeat(auto-fill, minmax(250px, 1fr))">
-    {products.map((product => 
+    {products.map((product) => (
     <Stack spacing={3} borderRadius="md" padding={4} backgroundColor="#b5e48c" key={product.id}>
+      <Image alt={product.title} as={motion.img} cursor="pointer" layoutId={product.image} maxHeight={128} objectFit="cover" src={product.image} />
       <Stack spacing={1}>
       <Text>{product.title}</Text>
       <Text fontSize="sm" fontWeight="500"  color="pink.500">{parseCurrency(product.price)}</Text>
@@ -58,6 +62,7 @@ const IndexRoute: React.FC<Props> = ({products}) => {
       </Flex>
   )}
   </Stack>
+  </AnimateSharedLayout>
   );
 };
 
