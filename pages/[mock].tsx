@@ -12,15 +12,15 @@ interface Props {
 
 interface Params extends ParsedUrlQuery {
     mock: string;
+    params: string;
 }
 
 const IndexRoute: React.FC<Props> = ({products}) => {
   return <StoreScreen products={products} />;
 };
 
-export const getStaticProps: GetStaticProps<unknown, Params> = async ({params}) => {
-    console.log(params?.mock)
-  const products = await api.mock.list(params.mock);
+export const getStaticProps: GetStaticProps = async () => {
+  const products = await api.list();
 
   return {
     revalidate: 10,
