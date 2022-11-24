@@ -1,0 +1,114 @@
+[
+{
+    "id": "6BCF3120-611C-4745-98A9-1C70F64E768A",
+    "title": "Pikachu",
+    "category": "Muñecos",
+    "description": "15cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "2000"
+  },
+  {
+    "id": "092000A7-0D72-408C-9865-99F5EC1B42B9",
+    "title": "Shrek",
+    "category": "Llaveros",
+    "description": "20cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "1500"
+  },
+  {
+    "id": "94135541-2197-4E57-822D-BD934AC7B922",
+    "title": "Maradona",
+    "category": "Cuadros",
+    "description": "10cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "300"
+  },
+  {
+    "id": "50767A0D-9F2C-4555-949C-6DA0A32F0778",
+    "title": "Messi",
+    "category": "Cuadros",
+    "description": "60cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "700"
+  },
+  {
+    "id": "848F3A3D-4D75-48A9-BC86-52FCB17DEE28",
+    "title": "Copa del mundo",
+    "category": "Cuadros",
+    "description": "40cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "500"
+  },
+  {
+    "id": "D524B368-55C7-4A7C-BCC0-1039556F839A",
+    "title": "Harry Potter",
+    "category": "Muñecos",
+    "description": "15cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "800"
+  },
+  {
+    "id": "D47A8F10-ED4E-4DE7-8124-7F1FBFB9634E",
+    "title": "Bichos",
+    "category": "Cuadros",
+    "description": "25cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "2500"
+  },
+  {
+    "id": "A2CBA093-D53A-4E7B-B626-17DAC9335C4D",
+    "title": "Marvel",
+    "category": "Llaveros",
+    "description": "5cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "300"
+  },
+  {
+    "id": "6E96BFC8-9C5C-4ED8-A13D-D5BCA0A75F44",
+    "title": "Tarantino",
+    "category": "Cuadros",
+    "description": "15cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "500"
+  },
+  {
+    "id": "9D50282C-4649-4222-B680-A5429F991EBE",
+    "title": "Guitarra",
+    "category": "Cuadros",
+    "description": "20cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "300"
+  },
+  {
+    "id": "8C5A1D75-3C81-42AD-96DB-FDFB519C7C79",
+    "title": "Play station",
+    "category": "Cuadros",
+    "description": "50cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "3000"
+  },
+  {
+    "id": "08EE6737-FBD5-4CE2-9C94-C5399E3B8A62",
+    "title": "Estatua messi",
+    "category": "Muñecos",
+    "description": "20cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "4000"
+  },
+  {
+    "id": "424DFDB0-5B3B-4932-BE19-C3CBE2B31E3D",
+    "title": "Florero",
+    "category": "Accesorios",
+    "description": "10cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "600"
+  },
+  {
+    "id": "B9F4F2E7-999B-4FFB-B644-536615B95E0D",
+    "title": "Mickey",
+    "category": "Muñecos",
+    "description": "10cm",
+    "image": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png",
+    "price": "900"
+  }
+]

@@ -1,4 +1,5 @@
 import axios from "axios";
+import { result } from "lodash";
 import Papa from "papaparse";
 
 import {Product} from "./types";
@@ -29,6 +30,9 @@ export default {
             }),
         );
    },
+   mock: {
+    list: (mock: string): Promise<Product[]> => import(`./mocks/${mock}.json`).then((result) => result.default),
+   }
 };
 
 
